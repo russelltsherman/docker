@@ -1,0 +1,14 @@
+# ignore build harness
+*build-harness
+
+# ignore homebrew bundle lockfile
+*.lock.json
+
+# ignore vim bundles
+dotfiles/.vim/bundle/*
+
+# ignore zsh hostory
+dotfiles/.zsh/.zsh_history
+
+# ignore zsh completion
+dotfiles/.zsh/.zcompdump*
