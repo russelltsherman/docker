@@ -9,6 +9,5 @@ bootstrap:
 .PHONY: bootstrap
 
 machine:
-
-	docker-machine create --driver hyperkit default
+	docker-machine create --driver virtualbox default
 .PHONY: machine
